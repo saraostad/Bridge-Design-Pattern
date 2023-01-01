@@ -1,0 +1,16 @@
+This real-world code demonstrates the Bridge pattern in which a BusinessObject abstraction is decoupled from the implementation in DataObject. The DataObject implementations can evolve dynamically without changing any clients.
+
+Output
+Jim Jones
+Samual Jackson
+Allen Good
+
+------------------------
+Customer Group: Chicago
+Jim Jones
+Samual Jackson
+Allen Good
+Ann Stills
+Lisa Giolani
+Henry Velasquez
+------------------------

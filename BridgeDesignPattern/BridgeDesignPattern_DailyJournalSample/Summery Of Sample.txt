@@ -1,0 +1,26 @@
+Bridge design pattern – Real-world example in C#
+
+Consider software with a new version named “ShareJornal“. It allows users to register and write a few things about their daily routine and interactions with their close friends, just like a daily journal. This software will require no user authentication or instantiation, and you would consider that the user will be entered immediately into the system for simplicity.
+
+The previous version of the software called “DailyJournal” is not discarded yet, and the users can also access the pages on the previous version. So try to think about it a little bit how you can fulfill this requirement with the help of the Bridge design pattern.
+
+Output:
+
+ ======== Lance's Spacebook ========
+ Hello world
+=================================
+
+ ======== Lance's Spacebook ========
+ Hello world
+ Today, I have spent a really busy day
+=================================
+
+ ======== Lance's Spacebook ========
+ Hello world
+ Today, I have spent a really busy day
+You have been poked
+Clara said:How is everything going?
+=================================
+
+ ======== Clara daily journal's Spacebook ========
+Hello there! I have started to write on ShareJournal
